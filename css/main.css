@@ -1,3 +1,11 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body{
 
 	font-family: 'Open Sans','helvetica',arial,sans-serif;
@@ -139,5 +147,44 @@ h1, h2, h3, h4, h5, h6 {
   width: 33.33%;
 }
 
+.education-experience__list li {
+	list-style: none;
+	margin: 0;
+	padding: 0px;
+	display: block;
+}
+
+.education-experience__list li img {
+	width: 120px;
+	float: left;
+}
+
+.education-experience__title,
+.education-experience__list__description h3,
+.education-experience__description{
+	overflow: hidden;
+	text-align: left;
+	padding-left: 40px;
+}
+
+.get-in-touch__list li,
+.photos__list li{
+	list-style: none;
+	width: 25%;
+	float: left;
+	padding: 10px;
+	text-align: center;
+}
+
+.get-in-touch__list{
+	width: 80%;
+	overflow: hidden;
+	margin:	0 auto;
+}
+
+.get-in-touch__list li img,
+.photos__list li img{
+	width: 100%;
+}
 
 
